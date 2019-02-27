@@ -1,0 +1,31 @@
+.footer{
+    visibility: hidden;
+    justify-content: space-between;
+}
+
+.bottom-nav{
+
+    display: flex;
+    
+
+    &__action{
+        width: 33vw;
+        height: 10vh;
+        display: flex;
+        text-decoration: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        svg {
+            width: 2rem;
+            fill: white;
+        } 
+    }
+
+    &__label{
+        color: white;
+        
+    }
+}
+
+

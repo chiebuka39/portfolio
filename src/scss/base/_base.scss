@@ -1,0 +1,31 @@
+$font-primary:'Open Sans', sans-serif;
+$font-heading:'PT Serif', serif;
+$background: #f5f6fa;
+$text: #9c9c9c;
+$input-bg-color: #fff;
+$input-text-color: #a3a3a3;
+$button-bg-color: #7f8ff4;
+$button-text-color: #fff;
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+
+.container {
+	background-image: url("../images/bg.svg");
+	background-size: cover;
+	
+}
+
+body{
+	font-family: $font-primary;
+}
+
